@@ -15,7 +15,7 @@ const reverseString = (str: string): string => {
 };
 // Sample Input:
 const reversed = reverseString("typescript");
-// console.log(reversed);
+
 // Sample Output:
 // ("tpircsepyt");
 
@@ -38,8 +38,6 @@ const res1 = checkType("Hello");
 // ("String");
 // Sample Input 2:
 const res2 = checkType(42);
-// console.log(res2);
-// console.log(res1);
 // Sample Output 2:
 // ("Number");
 
@@ -53,7 +51,7 @@ const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
 };
 
 const name1 = getProperty(user, "name");
-// console.log(name1);
+
 // Sample Output:
 // ("John Doe");
 
@@ -101,7 +99,6 @@ class Student {
   }
 
   getDetails(): string {
-    // console.log(`Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`);
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
