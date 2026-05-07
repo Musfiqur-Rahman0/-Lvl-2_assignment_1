@@ -120,4 +120,3 @@ const getIntersection = (arr1: number[], arr2: number[]): number[] => {
 const intersection = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
 // Sample Output:
 //   (3, 4, 5)
-// console.log(intersection);
